@@ -9,3 +9,5 @@ function strictEqual(valueOne, valueTwo) {
       return false
     }
   }
+
+module.exports = strictEqual
