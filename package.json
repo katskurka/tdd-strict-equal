@@ -1,0 +1,25 @@
+{
+  "name": "tdd-strict-equal",
+  "version": "1.0.0",
+  "description": "tdd practice homework to create a strictEqual function",
+  "main": "strictequal.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js",
+    "lint": "eslint --ignore-pattern '.eslintrc.js' **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katskurka/tdd-strict-equal.git"
+  },
+  "author": "Kat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katskurka/tdd-strict-equal/issues"
+  },
+  "homepage": "https://github.com/katskurka/tdd-strict-equal#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.30.0",
+    "mocha": "^9.0.2"
+  }
+}
