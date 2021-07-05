@@ -9,5 +9,11 @@ describe('strictEqual', () => {
       let result = strictEqual ('boo', 'boo')
       expect(result).to.equal(true)
     })
+
+    it('when integers are strictly equal, true is returned', () =>{
+      let result = strictEqual (7,7)
+      expect(result).to.equal(true)
+    })
   })
 })
+
